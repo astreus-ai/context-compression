@@ -8,7 +8,8 @@ async function main() {
   const agent = await Agent.create({
     name: 'ContextAgent',
     model: 'gpt-4o',
-    contextCompression: true,
+    memory: true,
+    autoContextCompression: true,
     systemPrompt: 'You can handle very long conversations efficiently.'
   });
 

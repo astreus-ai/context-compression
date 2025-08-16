@@ -10,9 +10,16 @@
     "dev": "ts-node index.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["ai", "agent", "context", "compression", "memory", "astreus"],
+  "keywords": [
+    "ai",
+    "agent",
+    "context",
+    "compression",
+    "memory",
+    "astreus"
+  ],
   "dependencies": {
-    "@astreus-ai/astreus": "^0.5.21",
+    "@astreus-ai/astreus": "^0.5.23",
     "dotenv": "^17.2.1"
   },
   "devDependencies": {

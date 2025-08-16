@@ -52,6 +52,7 @@ import { Agent } from '@astreus-ai/astreus';
 const agent = await Agent.create({
   name: 'ContextAgent',
   model: 'gpt-4o',
+  memory: true,
   contextCompression: true,
   systemPrompt: 'You can handle very long conversations efficiently.'
 });
